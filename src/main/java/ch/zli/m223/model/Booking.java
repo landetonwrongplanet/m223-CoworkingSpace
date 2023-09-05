@@ -26,9 +26,6 @@ public class Booking {
     @Temporal(TemporalType.TIMESTAMP)
     private Date date;
 
-    @Enumerated(EnumType.STRING)
-    private BookingStatus status;
-
 
 
     public Long getId() {
@@ -71,11 +68,4 @@ public class Booking {
         this.date = date;
     }
 
-    public Booking getStatus() {
-        return status;
-    }
-
-    public void setStatus(BookingStatus status) {
-        this.status = status;
-    }
 }

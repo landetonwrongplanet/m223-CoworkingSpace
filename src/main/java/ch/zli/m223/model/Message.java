@@ -24,7 +24,6 @@ public class Message {
     @Temporal(TemporalType.TIMESTAMP)
     private Date timestamp;
 
-    // Konstruktor, Getter und Setter
 
     public Long getId() {
         return id;

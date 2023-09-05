@@ -1,16 +1,14 @@
-# Übungsprojekt: Punch Clock
+# Übungsprojekt: CowrokingSpace
 
-Punch Clock ist ein Zeiterfassungssystem, welches mit Quarkus entwickelt wird.
+Coworking-Space ist ein Projekt, welches mit Quarkus entwickelt wird. Dabei soll es möglich sein, sich einen Arbeitsplatz zu reservieren. 
 
-## Erste Schritte
+## Wie startet man die Applikation
 
-1. Erstelle eine Kopie (fork) von diesem Projekt.
-1. Stelle sicher, dass Docker installiert ist und läuft.
-1. Stelle sicher, dass Visual Studio Code und die Erweiterung Remote Container installiert ist.
-1. Klone (clone) das Projekt lokal, um damit arbeiten zu können.
-1. Öffne das Projekt mit Visual Studio Code.
-1. Öffne das Projekt im Entwicklungscontainer.
-1. Starte das Projekt mit dem Kommando `Quarkus: Debug current Quarkus Project`
+
+1. Öffnen Sie das Projekt mit Visual Studio Code.
+1. Öffnen Sie das Projekt im Entwicklungscontainer.
+1. Starten Sie das Projekt mit dem Kommando
+ `Quarkus: Debug current Quarkus Project`
 1. Probiere die Client-Applikation unter http://localhost:8080 aus.
 1. Schaue die API auf http://localhost:8080/q/swagger-ui/ an.
 
@@ -30,3 +28,11 @@ Die Daten werden in einer PostgreSQL-Datenbank gespeichert. In der Entwicklungsu
 ## Automatische Tests
 
 Die automatischen Tests können mit `./mvnw quarkus:test` ausgeführt werden. Für die automatischen Tests wird nicht die PostgreSQL-Datenbank verwendet, sondern eine H2-Datenbank, welche sich im Arbeitsspeicher während der Ausführung befindet.
+
+## Repo
+
+https://github.com/landetonwrongplanet/m223-CoworkingSpace/tree/main/src
+
+## Abweichungen zur Planung
+
+Ich habe gestern nochmals gestartet, meine Planung ist auf Deutsch, der Code auf Englisch. Auch konnte ich nicht alles so umsetzen, wie ich es geplant habe. 

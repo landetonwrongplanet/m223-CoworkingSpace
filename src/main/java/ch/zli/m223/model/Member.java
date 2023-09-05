@@ -2,8 +2,6 @@ package ch.zli.m223.model;
 
 import javax.persistence.*;
 
-import org.hibernate.usertype.UserType;
-
 import java.util.List;
 
 @Entity
@@ -16,7 +14,7 @@ public class Member {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "email", unique = true) // 'unique' stellt sicher, dass jede E-Mail eindeutig ist
+    @Column(name = "email", unique = true) 
     private String email;
 
     @Column(name = "password")

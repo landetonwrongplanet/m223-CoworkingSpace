@@ -67,21 +67,7 @@ public class Member {
         this.password = password;
     }
 
-    public UserType getUserType() {
-        return userType;
-    }
 
-    public void setUserType(UserType userType) {
-        this.userType = userType;
-    }
-
-    public List<Booking> getBookings() {
-        return bookings;
-    }
-
-    public void setBookings(List<Booking> bookings) {
-        this.bookings = bookings;
-    }
 
     public List<Message> getSentMessages() {
         return sentMessages;

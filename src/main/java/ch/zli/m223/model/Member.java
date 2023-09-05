@@ -22,8 +22,7 @@ public class Member {
     @Column(name = "password")
     private String password;
 
-    @Enumerated(EnumType.STRING)
-    private UserType userType;
+
 
     @OneToMany(mappedBy = "member")
     private List<Booking> bookings;

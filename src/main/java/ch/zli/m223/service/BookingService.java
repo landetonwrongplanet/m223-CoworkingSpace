@@ -9,12 +9,13 @@ import javax.transaction.Transactional;
 
 import ch.zli.m223.model.Booking;
 
+@ApplicationScoped
 public class BookingService {
 
     public List<Booking> getAllBookings() {
         return null;
     }
-    @ApplicationScoped
+    
     @Inject
     EntityManager entityManager;
 

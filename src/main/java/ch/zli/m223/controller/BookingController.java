@@ -31,8 +31,8 @@ public class BookingController {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Operation(
-        summary = "Index all categories.", 
-        description = "Returns a list of all categories."
+        summary = "Index all bookings.", 
+        description = "Returns a list of all bookings."
     )
     public List<Booking> index() {
         return bookingService.findAll();

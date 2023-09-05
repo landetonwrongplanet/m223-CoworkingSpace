@@ -33,7 +33,7 @@ public class MemberController {
   @Produces(MediaType.APPLICATION_JSON)
   @Operation(
       summary = "Index all members.", 
-      description = "Returns a list of all users."
+      description = "Returns a list of all member."
   )
   public List<Member> index() {
       return memberService.findAll();
@@ -43,8 +43,8 @@ public class MemberController {
   @Produces(MediaType.APPLICATION_JSON)
   @Consumes(MediaType.APPLICATION_JSON)
   @Operation(
-      summary = "Creates a new user. Also known as registration.", 
-      description = "Creates a new user and returns the newly added user."
+      summary = "Creates a new member. Also known as registration.", 
+      description = "Creates a new member and returns the newly added member."
   )
   @PermitAll
   public Member create(Member member) {
@@ -54,8 +54,8 @@ public class MemberController {
   @Path("/{id}")
   @DELETE
   @Operation(
-      summary = "Deletes an user.",
-      description = "Deletes an user by its id."
+      summary = "Deletes an member.",
+      description = "Deletes an member by its id."
   )
   public void delete(@PathParam("id") Long id) {
       memberService.deleteMember(id);

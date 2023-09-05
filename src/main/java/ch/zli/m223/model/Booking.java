@@ -71,7 +71,7 @@ public class Booking {
         this.date = date;
     }
 
-    public BookingStatus getStatus() {
+    public Booking getStatus() {
         return status;
     }
 

@@ -12,7 +12,7 @@ import ch.zli.m223.model.Resource;
 @ApplicationScoped
 public class ResourceService {
 
-    public List<Resource> getAllBookings() {
+    public List<Resource> getAllResources() {
         return null;
     }
  

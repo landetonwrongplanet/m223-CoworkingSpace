@@ -19,7 +19,6 @@ public class MessageServiceTest {
         Member receiver = new Member();
         receiver.setName("receiver_username");
 
-        // Erstellen einer Nachricht
         Message message = new Message();
         message.setSender(sender);
         message.setReceiver(receiver);

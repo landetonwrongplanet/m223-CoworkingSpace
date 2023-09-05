@@ -23,7 +23,7 @@ public class Resource {
     @OneToMany(mappedBy = "resource")
     private List<Booking> bookings;
 
-    // Getter und Setter für die Attribute
+
 
     public Long getId() {
         return id;

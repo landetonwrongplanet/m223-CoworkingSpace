@@ -14,7 +14,7 @@ public class BookingService {
         return null;
     }
 
-    public static void deleteBooking(Long id) {
+    public void deleteBooking(Long id) {
     }
 
     public Booking createBooking(Object memberId, Object resourceId, Object date) {
@@ -22,6 +22,18 @@ public class BookingService {
     }
 
     public Booking updateBooking(Long id, Object memberId, Object resourceId, Object date) {
+        return null;
+    }
+
+    public Booking createBooking(Booking booking) {
+        return null;
+    }
+
+    public Booking updateBooking(Long id, Booking booking) {
+        return null;
+    }
+
+    public List<Booking> findAll() {
         return null;
     }
     

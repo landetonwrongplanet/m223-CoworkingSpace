@@ -22,7 +22,7 @@ import ch.zli.m223.service.BookingService;
 
 @Path("/booking")
 @Tag(name = "Bookings", description = "Bookings and their handling")
-@RolesAllowed({ "User", "Admin" })
+@RolesAllowed({ "Member", "Admin" })
 public class BookingController {
     
     @Inject

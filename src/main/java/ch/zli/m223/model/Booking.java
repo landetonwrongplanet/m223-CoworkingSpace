@@ -30,6 +30,7 @@ public class Booking {
     private BookingStatus status;
 
 
+
     public Long getId() {
         return id;
     }

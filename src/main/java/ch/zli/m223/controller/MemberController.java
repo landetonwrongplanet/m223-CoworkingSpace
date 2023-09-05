@@ -48,7 +48,7 @@ public class MemberController {
   )
   @PermitAll
   public Member create(Member member) {
-     return userService.createUser(user);
+     return memberService.createMember(member);
   }
 
   @Path("/{id}")
@@ -68,6 +68,6 @@ public class MemberController {
       description = "Updates an member by its id."
   )
   public Member update(@PathParam("id") Long id, Member member) {
-      return memberService.updateUser(id, member);
+      return memberService.updateMember(id, member);
   }
 }
